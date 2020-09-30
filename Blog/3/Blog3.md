@@ -17,15 +17,7 @@ Before I began I created a UML class diagram to plan the prototype. Not much cha
 
 I chose XML instead of JSON for modelling the custom objects, mainly because XML allows for commenting and I find it more human readable. For the prototype I made a custom "Spawnable" class, which would hold the information for the users custom objects. Heres an example spawnable in XML
 
-`<Spawnable>
-
-  <spawnableName>Cube</spawnableName>
-
-  <meshName>cube_mesh.obj</meshName>
-
-  <onUpdateMethod>cube_onUpdate</onUpdateMethod>
-
-</Spawnable>`
+![XML for cube object](xmlcrop2.png)
 
 Each spawnable would have the properties:
 
@@ -69,9 +61,7 @@ Heres a basic example of the prototype running:
 
 - I then added the egg's **onUpdateMethod** to the **baseScript.lua** file
 
-  `function egg_onUpdate(gameObject, deltaTime)
-      gameObject.Move(0,0,3 * deltaTime)
-   end`
+  ![code ran in eggs onUpdate](egg_code.png)
 
 - When I ran the app again the egg moved to the right
   ![egg moving to the right](egg_alone.gif)
