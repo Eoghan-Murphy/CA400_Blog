@@ -11,7 +11,7 @@ A large element of my project idea will require the user to able to mod the game
 
 Before I began I created a UML class diagram to plan the prototype. Not much changed in implementation.
 
-![UML Class diagram showing design of project](C:\Users\Eoghan\Desktop\Project\GameShow\Blog\3\modding.png)
+![UML Class diagram showing design of project](modding.png)
 
 ### Modelling objects
 
@@ -55,17 +55,17 @@ Heres a basic example of the prototype running:
 
 - I built the app then ran it, resulting in an empty scene.
 
-![empty scene image](C:\Users\Eoghan\Desktop\Project\GameShow\Blog\3\empty.png)
+![empty scene image](empty.png)
 
 - I created a quick 3d model of an egg (strange choice, I know). I created an XML data model for an egg spawnable.
 
-  ![Egg spawnable XML](C:\Users\Eoghan\Desktop\Project\GameShow\Blog\3\xmlcrop.png)
+  ![Egg spawnable XML](xmlcrop.png)
 
   I placed egg_mesh.obj in the *Meshes* folder in *Streaming Assets*.
 
   Now when I ran the game the Egg spawnable was created
 
-  ![an egg in an empty scene](C:\Users\Eoghan\Desktop\Project\GameShow\Blog\3\egg_alone.png)
+  ![an egg in an empty scene](egg_alone.png)
 
 - I then added the egg's **onUpdateMethod** to the **baseScript.lua** file
 
@@ -73,9 +73,9 @@ Heres a basic example of the prototype running:
   	gameObject.Move(0,0,3 * deltaTime)
   end`
 
-- When I ran the app again the egg moved to the right![egg moving to the right](C:\Users\Eoghan\Desktop\Project\GameShow\Blog\3\egg_alone.gif)
+- When I ran the app again the egg moved to the right![egg moving to the right](egg_alone.gif)
 
-- I did similar for another Spawnable cube, except made it move left![egg and cube moving in scene](C:\Users\Eoghan\Desktop\Project\GameShow\Blog\3\egg_and_cube.gif)
+- I did similar for another Spawnable cube, except made it move left![egg and cube moving in scene](egg_and_cube.gif)
 
 It's not much and will be iterated on, but these objects are completely custom and added after the project build. This will be essential when adding mod support. 
 
