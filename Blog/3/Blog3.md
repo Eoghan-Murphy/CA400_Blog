@@ -59,7 +59,7 @@ Heres a basic example of the prototype running:
   ![an egg in an empty scene](egg_alone.png)
 
 - I then added the egg's **onUpdateMethod** to the **baseScript.lua** file
-  ![code ran in eggs onUpdate](egg_code.png)
+  ![code ran in eggs onUpdate](egg_code.PNG)
 
 - When I ran the app again the egg moved to the right
   ![egg moving to the right](egg_alone.gif)
