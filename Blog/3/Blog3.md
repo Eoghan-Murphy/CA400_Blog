@@ -47,7 +47,7 @@ Heres a basic example of the prototype running:
 
 - I built the app then ran it, resulting in an empty scene.
 
-![empty scene image](empty.png)
+  ![empty scene image](empty.png)
 
 - I created a quick 3d model of an egg (strange choice, I know). I created an XML data model for an egg spawnable.
 
@@ -56,11 +56,9 @@ Heres a basic example of the prototype running:
   I placed egg_mesh.obj in the *Meshes* folder in *Streaming Assets*.
 
   Now when I ran the game the Egg spawnable was created
-
   ![an egg in an empty scene](egg_alone.png)
 
 - I then added the egg's **onUpdateMethod** to the **baseScript.lua** file
-
   ![code ran in eggs onUpdate](egg_code.png)
 
 - When I ran the app again the egg moved to the right
