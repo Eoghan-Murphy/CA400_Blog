@@ -19,11 +19,11 @@ I chose XML instead of JSON for modelling the custom objects, mainly because XML
 
 `<Spawnable>
 
-​	<spawnableName>Cube</spawnableName>
+  <spawnableName>Cube</spawnableName>
 
-​	<meshName>cube_mesh.obj</meshName>
+  <meshName>cube_mesh.obj</meshName>
 
-​	<onUpdateMethod>cube_onUpdate</onUpdateMethod>
+  <onUpdateMethod>cube_onUpdate</onUpdateMethod>
 
 </Spawnable>`
 
@@ -70,8 +70,8 @@ Heres a basic example of the prototype running:
 - I then added the egg's **onUpdateMethod** to the **baseScript.lua** file
 
   `function egg_onUpdate(gameObject, deltaTime)
-  	gameObject.Move(0,0,3 * deltaTime)
-  end`
+      gameObject.Move(0,0,3 * deltaTime)
+   end`
 
 - When I ran the app again the egg moved to the right
   ![egg moving to the right](egg_alone.gif)
