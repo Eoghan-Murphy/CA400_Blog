@@ -10,7 +10,7 @@ Luckily my core design from my first blog post didn't really need to change, I j
 
 Everything mostly just worked in the end, once I was more familiar with the library adapting my prototype to allow for multiple players wasn't too hard (Notice I'm controlling both players here, but I have tested it over a network with another player):
 
-![quick demonstratin of a second player picking up a physics object](C:\Users\Eoghan\Desktop\Project\Blog\2\ezgif-7-0c70abadabe2.gif)
+![quick demonstratin of a second player picking up a physics object](ezgif-7-0c70abadabe2.gif)
 
 There's still a bit of lag and noticeable stuttering, but I believe I can fix this with a bit more work.
 
