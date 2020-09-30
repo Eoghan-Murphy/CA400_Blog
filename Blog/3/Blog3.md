@@ -73,9 +73,11 @@ Heres a basic example of the prototype running:
   	gameObject.Move(0,0,3 * deltaTime)
   end`
 
-- When I ran the app again the egg moved to the right![egg moving to the right](egg_alone.gif)
+- When I ran the app again the egg moved to the right!
+  [egg moving to the right](egg_alone.gif)
 
-- I did similar for another Spawnable cube, except made it move left![egg and cube moving in scene](egg_and_cube.gif)
+- I did similar for another Spawnable cube, except made it move left
+  ![egg and cube moving in scene](egg_and_cube.gif)
 
 It's not much and will be iterated on, but these objects are completely custom and added after the project build. This will be essential when adding mod support. 
 
