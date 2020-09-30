@@ -10,21 +10,21 @@ For my 4th year project, I'm leaning towards a networked game built in Unity. I 
 
 Normally I'd just start writing code wildly, and throwing everything together, but I wanted to be able to reuse some of this code for my actual project. I decided to start by developing some UML class diagrams for the prototype. Mainly classes for the player and the logic to do with controlling them.
 
-![UML Diagram describing classes to do with controlling the player](C:\Users\Eoghan\Desktop\Project\Blog\1\playerUML.png)
+![UML Diagram describing classes to do with controlling the player](playerUML.png)
 
 My UML skills were a bit rusty, but it helped tremendously, I had forgotten how helpful it is to have any sort of design documents prepared. In far less time then I expected, I had working first person controls, in a primitive environment.
 
-![gif showing first person gameplay](C:\Users\Eoghan\Desktop\Project\Blog\1\firstperson.gif)
+![gif showing first person gameplay](firstperson.gif)
 
 ### Interactable Items
 
 Next I wanted to add interactable items. I decided on simple physics based objects that the player can lift up (creatively named 'Liftables'...) and items which play an animation when interacted with (I'm still working on this as Unity's default animation tools don't want to cooperate). The UML diagram for this step was very simplistic:
 
-![UML class diagram for Interactable class](C:\Users\Eoghan\Desktop\Project\Blog\1\interactable.png)
+![UML class diagram for Interactable class](interactable.png)
 
 And here's the what it looked like implemented:
 
-![interactable](C:\Users\Eoghan\Desktop\Project\Blog\1\interactable.gif)
+![interactable](interactable.gif)
 
 ### What's Next
 
